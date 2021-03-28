@@ -14,9 +14,11 @@
     "gatsby-plugin-sharp": "^2.11.1",
     "gatsby-plugin-styled-components": "^3.7.0",
     "gatsby-remark-images": "^3.8.0",
+    "gatsby-remark-static-images": "^1.2.1",
     "gatsby-source-filesystem": "^2.8.0",
     "gatsby-transformer-remark": "^2.13.0",
     "gatsby-transformer-sharp": "^2.9.0",
+    "pngquant-bin": "^6.0.0",
     "polished": "^4.0.5",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
@@ -25,6 +27,7 @@
     "react-headroom": "^3.1.0",
     "react-helmet": "^6.1.0",
     "react-theme-provider": "^0.1.3",
+    "sharp": "^0.27.2",
     "styled-components": "^5.2.1",
     "webfontloader": "^1.6.28"
   },
@@ -38,9 +41,7 @@
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "fsevents": "^2.2.1"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://bitbucket.org/emmnunes/undersight.co"

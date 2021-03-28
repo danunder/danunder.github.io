@@ -48,11 +48,11 @@ class TemplateWrapper extends React.Component {
       <ThemeProvider theme={theme}>
         <div className={"site-wrapper " + this.state.loadState}>
           <Helmet
-            title="Undersight.co"
+            title="danunder.github.io"
             meta={[
-              { name: 'name', content: 'Undersight.co' },
-              { name: 'description', content: 'Undersight.co is the digital playground of Eduardo Nunes. Full-time graphic designer, part-time noise maker. Head of Design at Stockholm-based Kollegorna.' },
-              { name: 'keywords', content: 'undersight, design, eduardo nunes, Web, development, frontend, graphic' },
+              { name: 'name', content: 'danunder.github.io' },
+              { name: 'description', content: 'danunder.github.io is the portfolio of Daniel Robertson, full-stack developer and karaoke superstar' },
+              { name: 'keywords', content: 'danunder, developer, daniel robertson, Web, development, frontend, full-stack' },
               { name: 'image', content: "/images/og.png" }
             ]}
           >
@@ -67,18 +67,13 @@ class TemplateWrapper extends React.Component {
             <meta name="theme-color" content="#fff9aa" />
 
             <meta property="og:type" content="website" />
-            <meta property="og:site_name" content="Undersight.co" />
-            <meta property="og:title" content="Undersight.co" />
-            <meta property="og:description" content="Undersight.co is the digital playground of Eduardo Nunes. Full-time graphic designer, part-time noise maker. Head of Design at Stockholm-based Kollegorna." />
+            <meta property="og:site_name" content="danunder.github.io" />
+            <meta property="og:title" content="danunder.github.io" />
+            <meta property="og:description" content="danunder.github.io is the portfolio of Daniel Robertson, full-stack developer and karaoke superstar" />
             <meta property="og:image" content="https://www.undersight.co/images/og.png" />
             <meta property="og:url" content={"https://www.undersight.co" + this.props.location.pathname} />
 
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:title" content="Undersight.co" />
-            <meta name="twitter:description" content="Undersight.co is the digital playground of Eduardo Nunes. Full-time graphic designer, part-time noise maker. Head of Design at Stockholm-based Kollegorna." />
-            <meta name="twitter:image:src" content="https://www.undersight.co/images/og.png" />
-            <meta name="twitter:site" content="@emmnunes" />
-            <meta name="twitter:creator" content="@emmnunes" />
+            
 
           </Helmet>
 

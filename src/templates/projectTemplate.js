@@ -73,6 +73,14 @@ const ProjectContent = styled.section`
     }
   }
 
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%
+
+  }
+
   .video {
     width: 100%;
     height: 56.25vw;
@@ -266,7 +274,7 @@ export default function Template({
 
   return (
     <div>
-      <Helmet title={frontmatter.title + " — Undersight.co"} />
+      <Helmet title={frontmatter.title + " — danunder.github.io"} />
 
       <ProjectWrapper>
         <ProjectContent role="main">

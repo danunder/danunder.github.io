@@ -3,10 +3,8 @@ import Link from 'gatsby-link'
 import styled from "styled-components"
 import { rem } from "polished"
 
-import Behance from "../../assets/images/icons/behance.svg"
-import Dribbble from "../../assets/images/icons/dribbble.svg"
 import GitHub from "../../assets/images/icons/github.svg"
-import Tumblr from "../../assets/images/icons/tumblr.svg"
+import LinkedIn from "../../assets/images/icons/linkedin.svg"
 
 const MainFooter = styled.footer`
   width: 100%;
@@ -92,13 +90,11 @@ class Footer extends React.Component {
     return (
     <MainFooter>
         <FooterLogo>
-            <Link to="/">Undersight</Link>
+            <Link to="/">danunder.github.io</Link> comes from  <a href="https://undersight.co/" target="_blank">Undersight.co</a> by Eduardo Nunes
         </FooterLogo>
         <FooterLinks>
-            <a href="https://www.behance.net/eduardonunes" target="_blank" rel="noopener noreferrer"><img src={Behance} alt="Behance logo" /> <span>Behance</span></a>
-            <a href="https://dribbble.com/eduardonunes" target="_blank" rel="noopener noreferrer"><img src={Dribbble} alt="Dribbble logo" /> <span>Dribbble</span></a>
-            <a href="https://github.com/emmnunes" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="GitHub logo" /> <span>GitHub</span></a>
-            <a href="http://tumblr.undersight.co/" target="_blank" rel="noopener noreferrer"><img src={Tumblr} alt="Tumblr logo" /> <span>Tumblr</span></a>
+            <a href="https://github.com/danunder" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="GitHub logo" /> <span>GitHub</span></a>
+            <a href="http://linkedin.com/in/danunder" target="_blank" rel="noopener noreferrer"><img src={LinkedIn} alt="LinkedIn logo" /> <span>LinkedIn</span></a>
         </FooterLinks>
     </MainFooter>
     )

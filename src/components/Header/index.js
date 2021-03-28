@@ -150,7 +150,7 @@ const SiteByline = styled.p`
   font-size: ${rem(14)};
   line-height: 1.4;
   font-weight: 300;
-  margin-top: ${rem(20)};
+  margin-top: ${rem(10)};
 
   a {
     text-decoration: underline;
@@ -169,7 +169,7 @@ const SiteByline = styled.p`
   @media ${props => props.theme.smallUp} {
     font-size: ${rem(20)};
     line-height: 1.5;
-    margin-top: ${rem(50)};
+    margin-top: ${rem(10)};
   }
 `
 
@@ -181,7 +181,7 @@ class Header extends React.Component {
           <MainHeader size="small">
             <Link to="/" title="Go to homepage">
               <SiteTitle size="small">
-                <strong>Undersight.co</strong><small> is the digital playground of Eduardo Nunes.</small>
+                <strong>Daniel Robertson</strong><small> is a full-stack developer & karaoke tragic </small>
               </SiteTitle>
             </Link>
           </MainHeader>
@@ -190,10 +190,26 @@ class Header extends React.Component {
     } else {
       return (
         <MainHeader>
-          <SiteTitle><strong>Undersight.co</strong> is the digital playground of Eduardo Nunes.</SiteTitle>
+          <SiteTitle><strong>Daniel Robertson</strong> is a full-stack developer & karaoke tragic  </SiteTitle>
           <SiteByline>
-            Full-time graphic designer, part-time noise maker. <br />
-            Head of Design at Stockholm-based <a href="https://www.odd.camp" target="_blank" title="Odd Camp's Website" rel="noopener noreferrer">Odd Camp</a>.
+            
+            ... and troubleshooter, boardgamer, baker, delivery rider, thrift-chef, mentor, fermenter, server-bartender, yoga practitioner, dogfather, expat, extrovert...
+          </SiteByline>
+          <SiteByline>
+            
+            <strong>Languages:</strong> Javascript, Ruby, Python, HTML, CSS
+          </SiteByline>
+          <SiteByline><strong>Frameworks, Libraries and Environments:</strong> ReactJS,  Rails, NodeJS, Ajax, Express, EJS, JQuery, SASS, Styled Components, Bootstrap</SiteByline>          
+          <SiteByline>  
+             
+             
+            <strong>Systems, CMS and Databases:</strong> SQL, PostgreSQL, CircleCI, Git, Heroku, Netlify</SiteByline>
+            <SiteByline>       
+            
+            <strong>Testing:</strong> Mocha, Chai, Storybook, Jest, Cypress</SiteByline>
+            <SiteByline> 
+            
+            <strong>Go-to bangers:</strong> Take Me Out (Franz Ferdinand), You Spin Me Around (Dead or Alive), Clint Eastwood (Gorillaz), 50 Ways to Leave Your Lover (Paul Simon)
           </SiteByline>
         </MainHeader>
       )
